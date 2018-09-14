@@ -1,1 +1,47 @@
-°«¸öÈËÍ·¶òÆë¶ûÈº
+
+Ëï¿­@LAPTOP-6DGC4ILK MINGW64 ~/Desktop/Ëï¿­ (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Ëï¿­@LAPTOP-6DGC4ILK MINGW64 ~/Desktop/Ëï¿­ (master)
+$ git add .
+
+Ëï¿­@LAPTOP-6DGC4ILK MINGW64 ~/Desktop/Ëï¿­ (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Ëï¿­@LAPTOP-6DGC4ILK MINGW64 ~/Desktop/Ëï¿­ (master)
+$ git add .
+
+Ëï¿­@LAPTOP-6DGC4ILK MINGW64 ~/Desktop/Ëï¿­ (master)
+$ git commit -m "sadsad"
+[master 6d2dfc3] sadsad
+ 1 file changed, 1 insertion(+)
+ create mode 100644 "\346\226\260\345\273\272\346\226\207\346\234\254\346\226\207\346\241\243 (2).txt"
+
+Ëï¿­@LAPTOP-6DGC4ILK MINGW64 ~/Desktop/Ëï¿­ (master)
+$ git remote add origin https://github.com/smileteeth/sk.git
+
+Ëï¿­@LAPTOP-6DGC4ILK MINGW64 ~/Desktop/Ëï¿­ (master)
+$ git push -u origin master
+fatal: HttpRequestException encountered.
+   ?????????????
+Username for 'https://github.com': smileteeth
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 498 bytes | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/smileteeth/sk/pull/new/master
+remote:
+To https://github.com/smileteeth/sk.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Ëï¿­@LAPTOP-6DGC4ILK MINGW64 ~/Desktop/Ëï¿­ (master)
+$ ^C
+
